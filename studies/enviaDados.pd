@@ -1,0 +1,26 @@
+#N canvas 628 211 450 300 10;
+#N canvas 65 85 450 300 (subpatch) 0;
+#X array array 4 float 3;
+#A 0 40 29 68 54;
+#X coords 0 100 4 0 200 140 1 0 0;
+#X restore 99 9 graph;
+#X obj 321 3 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 4000 1;
+#X obj 320 59 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 2900 1;
+#X obj 321 116 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 6800 1;
+#X obj 320 172 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 5400 1;
+#X obj 317 191 s a3;
+#X obj -8 32 exemploSlider 1;
+#X obj -7 11 exemploSlider 0;
+#X obj -7 54 exemploSlider 2;
+#X obj -7 75 exemploSlider 3;
+#X obj 318 137 s a2;
+#X obj 318 23 s a0;
+#X obj 317 79 s a1;
+#X connect 1 0 11 0;
+#X connect 2 0 12 0;
+#X connect 3 0 10 0;
+#X connect 4 0 5 0;

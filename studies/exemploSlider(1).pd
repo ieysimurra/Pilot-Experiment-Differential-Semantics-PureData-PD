@@ -1,0 +1,8 @@
+#N canvas 65 105 450 300 10;
+#X obj -115 176 tabwrite array;
+#X obj -115 155 r a\$1;
+#X obj -34 155 f \$1;
+#X obj -34 131 loadbang;
+#X connect 1 0 0 0;
+#X connect 2 0 0 1;
+#X connect 3 0 2 0;

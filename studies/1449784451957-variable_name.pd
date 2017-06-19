@@ -1,0 +1,13 @@
+#N canvas 0 0 450 300 10;
+#X obj 159 128 s whatever;
+#X obj 160 163 r whatever;
+#X msg 159 61 101;
+#X obj 159 94 pp variable_mine;
+#X obj 160 198 list split 1;
+#X floatatom 268 235 5 0 0 0 - - -;
+#X symbolatom 160 235 15 0 0 0 - - -;
+#X connect 1 0 4 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 4 0 6 0;
+#X connect 4 1 5 0;
